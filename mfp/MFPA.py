@@ -11,7 +11,7 @@ def min_time_to_deliver(N, P, strengths):   #determina o menor tempo possível p
     while left < right:
         mid = (left + right) // 2
         if time_to_deliver(P, strengths, mid) >= P:
-            right = midx'
+            right = mid
         else:
             left = mid + 1
             
