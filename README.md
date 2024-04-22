@@ -1,2 +1,3 @@
 # Competitive-Programming
-Competitive Programming tests I have done.
+
+MFP = Maratona Feminina de Programação
