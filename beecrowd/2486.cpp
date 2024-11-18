@@ -22,7 +22,7 @@ int main() {
             int quantity;
             string food;
             cin >> quantity;
-            cin.ignore();  // To ignore the space between quantity and food name
+            cin.ignore(); 
             getline(cin, food);
 
             totalVitaminC += quantity * vitaminCContent[food];
