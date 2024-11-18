@@ -4,15 +4,15 @@ def intercalar_lista_ordenada(impares):
     
     for i in range((tam + 1) // 2):
         if i < tam:
-            resultado.append(impares[i])  # Adiciona o maior disponível
+            resultado.append(impares[i])  
         if tam - i - 1 > i:
-            resultado.append(impares[tam - i - 1])  # Adiciona o menor disponível
+            resultado.append(impares[tam - i - 1])  
     
     return resultado
 
 def processar_caso(m, numeros):
     impares = [num for num in numeros if num % 2 != 0]
-    impares.sort(reverse=True)  # Ordena os ímpares em ordem decrescente
+    impares.sort(reverse=True)  
     resultado = intercalar_lista_ordenada(impares)
     return resultado
 
